@@ -42,7 +42,7 @@ moths = [
     'december'
 ]
 
-day = 'may-'+year
+day = 'june-'+year
 
 typeList = [
     'aries',
@@ -109,8 +109,8 @@ for item in typeList:
         getHtml(item, n)
     
     
-    os.makedirs('D:/astrology/files/'+year+'/'+day+'/'+item)
-    f = open('D:/astrology/files/'+year+'/'+day+'/'+item+'/index.html', mode='w',encoding='utf-8')
+    os.makedirs('./../files/'+year+'/'+day+'/'+item)
+    f = open('./../files/'+year+'/'+day+'/'+item+'/index.html', mode='w',encoding='utf-8')
     f.write(content)
     f.close()
 
