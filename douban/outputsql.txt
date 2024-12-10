@@ -1,0 +1,2 @@
+mysqldump-uroot-B book--add-drop-database > d:/book1.sql 
+导出数据库
